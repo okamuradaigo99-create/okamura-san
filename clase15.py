@@ -18,7 +18,7 @@ def adivinar():
     if intentos <secreto:
         resultado["text"] = "muy bajo . MAS ALTO"
     elif intentos > secreto:
-        resultado["text"] = "mujy alto . MAS BAJO"
+        resultado["text"] = "muy alto . MAS BAJO"
     else:
         resultado["text"] = f"correcto en {intentos}."
     entrada.delete(0,tk.END)
